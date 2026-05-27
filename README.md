@@ -18,21 +18,19 @@
 ## 开发环境
 
 - Arduino IDE 2.0+
-- PlatformIO 插件
 - M5Unified 库
 
 ## 安装步骤
 
-1. 安装 Arduino IDE 和 PlatformIO 插件
+1. 安装 Arduino IDE 
 2. 下载此项目到本地
-3. 用 Arduino IDE 打开 `platformio.ini` 文件
-4. 在 PlatformIO 中点击 "Upload" 编译并上传到 M5StickS3
+3. 用 Arduino IDE 打开 `main.cpp` 文件
 
 ## 使用方法
 
-1. 连接 M5StickS3 到电脑
-2. 点击 Arduino IDE 中的 "Upload" 按钮
-3. 摇摆设备控制小黄鸭在海洋球中漂浮
+1. 长按 M5StickS3 的复位键进入烧录状态，连接 M5StickS3 到电脑
+2. 点击 Arduino IDE 中的 "Upload" 按钮编译上传
+3. 按下M5StickS3 的复位键，摇摆设备控制小黄鸭在海洋球中漂浮
 4. 按钮A或B可重置小黄鸭位置
 
 ## 参数配置
